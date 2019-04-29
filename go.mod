@@ -1,7 +1,7 @@
 module github.com/sourcegraph/sourcegraph
 
 require (
-	cloud.google.com/go v0.34.0
+	cloud.google.com/go v0.37.4
 	github.com/NYTimes/gziphandler v1.1.1
 	github.com/aws/aws-sdk-go-v2 v0.7.0
 	github.com/beevik/etree v0.0.0-20180609182452-90dafc1e1f11
@@ -40,8 +40,7 @@ require (
 	github.com/gitchander/permutation v0.0.0-20181107151852-9e56b92e9909
 	github.com/go-redsync/redsync v1.0.1
 	github.com/gobwas/glob v0.2.3
-	github.com/gogo/protobuf v1.2.1 // indirect
-	github.com/golang-migrate/migrate/v4 v4.2.3
+	github.com/golang-migrate/migrate/v4 v4.3.1
 	github.com/golang/gddo v0.0.0-20181116215533-9bd4a3295021
 	github.com/golang/groupcache v0.0.0-20180513044358-24b0969c4cb7
 	github.com/golangci/golangci-lint v1.16.0
@@ -57,7 +56,7 @@ require (
 	github.com/gorilla/context v1.1.1
 	github.com/gorilla/csrf v1.5.1
 	github.com/gorilla/handlers v1.4.0
-	github.com/gorilla/mux v1.7.0
+	github.com/gorilla/mux v1.7.1
 	github.com/gorilla/schema v1.0.2
 	github.com/gorilla/securecookie v1.1.1
 	github.com/gorilla/sessions v1.1.4-0.20181015005113-68d1edeb366b
@@ -70,7 +69,7 @@ require (
 	github.com/joho/godotenv v1.3.0
 	github.com/jonboulle/clockwork v0.1.0 // indirect
 	github.com/json-iterator/go v1.1.6 // indirect
-	github.com/kardianos/osext v0.0.0-20170510131534-ae77be60afb1
+	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0
 	github.com/karlseguin/expect v1.0.1 // indirect
 	github.com/karlseguin/typed v1.1.7 // indirect
 	github.com/karrick/tparse v2.4.2+incompatible
@@ -92,16 +91,13 @@ require (
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/neelance/parallel v0.0.0-20160708114440-4de9ce63d14c
-	github.com/onsi/ginkgo v1.7.0 // indirect
-	github.com/onsi/gomega v1.4.3 // indirect
 	github.com/opentracing-contrib/go-stdlib v0.0.0-20190324214902-3020fec0e66b
 	github.com/opentracing/opentracing-go v1.1.0
 	github.com/peterhellberg/link v1.0.0
 	github.com/pkg/errors v0.8.1
 	github.com/pquerna/cachecontrol v0.0.0-20180517163645-1555304b9b35 // indirect
-	github.com/prometheus/client_golang v0.9.2
+	github.com/prometheus/client_golang v0.9.3-0.20190127221311-3c4408c8b829
 	github.com/prometheus/client_model v0.0.0-20190129233127-fd36f4220a90 // indirect
-	github.com/prometheus/common v0.2.0 // indirect
 	github.com/prometheus/procfs v0.0.0-20190209105433-f8d8b3f739bd // indirect
 	github.com/russellhaering/gosaml2 v0.3.2-0.20190403162508-649841e7f48a
 	github.com/russellhaering/goxmldsig v0.0.0-20180430223755-7acd5e4a6ef7
@@ -141,18 +137,14 @@ require (
 	github.com/xeipuuv/gojsonschema v0.0.0-20180816142147-da425ebb7609
 	github.com/xeonx/timeago v1.0.0-rc3
 	github.com/zenazn/goji v0.9.0 // indirect
-	go.opencensus.io v0.19.0 // indirect
 	go.uber.org/atomic v1.3.2 // indirect
-	golang.org/x/crypto v0.0.0-20190320223903-b7391e95e576
-	golang.org/x/net v0.0.0-20190322120337-addf6b3196f6
-	golang.org/x/oauth2 v0.0.0-20190212230446-3e8b2be13635
-	golang.org/x/sync v0.0.0-20181221193216-37e7f081c4d4
-	golang.org/x/sys v0.0.0-20190322080309-f49334f85ddc
+	golang.org/x/crypto v0.0.0-20190426145343-a29dc8fdc734
+	golang.org/x/net v0.0.0-20190424112056-4829fb13d2c6
+	golang.org/x/oauth2 v0.0.0-20190402181905-9f3314589c9a
+	golang.org/x/sync v0.0.0-20190423024810-112230192c58
+	golang.org/x/sys v0.0.0-20190426135247-a129542de9ae
 	golang.org/x/time v0.0.0-20190401211219-9d24e82272b4
-	golang.org/x/tools v0.0.0-20190322203728-c1a832b0ad89
-	google.golang.org/api v0.1.0 // indirect
-	google.golang.org/genproto v0.0.0-20190215211957-bd968387e4aa // indirect
-	google.golang.org/grpc v1.18.0 // indirect
+	golang.org/x/tools v0.0.0-20190425222832-ad9eeb80039a
 	gopkg.in/alexcesaro/statsd.v2 v2.0.0 // indirect
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 	gopkg.in/go-playground/validator.v8 v8.18.2 // indirect
